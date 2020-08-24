@@ -25,7 +25,7 @@ int main(int argc, char const** argv)
 
     
     sf::Music step;
-    if (!step.openFromFile("/Users/denisgoncarov/Documents/TestSFML/ee/ee/Resources/step.ogg")) {
+    if (!step.openFromFile("Ваш путь")) {
         return EXIT_FAILURE;
     }
 
