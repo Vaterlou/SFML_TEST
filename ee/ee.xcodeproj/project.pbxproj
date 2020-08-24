@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655B88E224EBF4E600A403F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 655B88E124EBF4E600A403F4 /* main.cpp */; };
+		655B88F224ED23B900A403F4 /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 655B88F024ED23B900A403F4 /* Field.cpp */; };
+		655B88F524ED23CF00A403F4 /* Pawn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 655B88F324ED23CF00A403F4 /* Pawn.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		655B88DE24EBF4E600A403F4 /* ee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ee; sourceTree = BUILT_PRODUCTS_DIR; };
+		655B88E124EBF4E600A403F4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		655B88F024ED23B900A403F4 /* Field.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Field.cpp; sourceTree = "<group>"; };
+		655B88F124ED23B900A403F4 /* Field.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Field.hpp; sourceTree = "<group>"; };
+		655B88F324ED23CF00A403F4 /* Pawn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pawn.cpp; sourceTree = "<group>"; };
+		655B88F424ED23CF00A403F4 /* Pawn.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pawn.hpp; sourceTree = "<group>"; };
+		655B88F824ED346200A403F4 /* step.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = step.ogg; path = ee/step.ogg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655B88DC24EBF4E600A403F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655B88D624EBF4E600A403F4 = {
+			isa = PBXGroup;
+			children = (
+				655B88E024EBF4E600A403F4 /* ee */,
+				655B88DF24EBF4E600A403F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655B88DF24EBF4E600A403F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655B88DE24EBF4E600A403F4 /* ee */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655B88E024EBF4E600A403F4 /* ee */ = {
+			isa = PBXGroup;
+			children = (
+				655B88E124EBF4E600A403F4 /* main.cpp */,
+				655B88E324EBF4E600A403F4 /* Resources */,
+				655B88F024ED23B900A403F4 /* Field.cpp */,
+				655B88F124ED23B900A403F4 /* Field.hpp */,
+				655B88F324ED23CF00A403F4 /* Pawn.cpp */,
+				655B88F424ED23CF00A403F4 /* Pawn.hpp */,
+			);
+			path = ee;
+			sourceTree = "<group>";
+		};
+		655B88E324EBF4E600A403F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				655B88F824ED346200A403F4 /* step.ogg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655B88DD24EBF4E600A403F4 /* ee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655B88EA24EBF4E600A403F4 /* Build configuration list for PBXNativeTarget "ee" */;
+			buildPhases = (
+				655B88DB24EBF4E600A403F4 /* Sources */,
+				655B88DC24EBF4E600A403F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ee;
+			productName = ee;
+			productReference = 655B88DE24EBF4E600A403F4 /* ee */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655B88D724EBF4E600A403F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Денис Гончаров";
+				TargetAttributes = {
+					655B88DD24EBF4E600A403F4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 655B88DA24EBF4E600A403F4 /* Build configuration list for PBXProject "ee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655B88D624EBF4E600A403F4;
+			productRefGroup = 655B88DF24EBF4E600A403F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655B88DD24EBF4E600A403F4 /* ee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655B88DB24EBF4E600A403F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655B88F524ED23CF00A403F4 /* Pawn.cpp in Sources */,
+				655B88F224ED23B900A403F4 /* Field.cpp in Sources */,
+				655B88E224EBF4E600A403F4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		655B88E824EBF4E600A403F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		655B88E924EBF4E600A403F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		655B88EB24EBF4E600A403F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		655B88EC24EBF4E600A403F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655B88DA24EBF4E600A403F4 /* Build configuration list for PBXProject "ee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655B88E824EBF4E600A403F4 /* Debug */,
+				655B88E924EBF4E600A403F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655B88EA24EBF4E600A403F4 /* Build configuration list for PBXNativeTarget "ee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655B88EB24EBF4E600A403F4 /* Debug */,
+				655B88EC24EBF4E600A403F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655B88D724EBF4E600A403F4 /* Project object */;
+}
